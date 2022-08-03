@@ -1,0 +1,28 @@
+{
+  "name": "budget_tracker",
+  "version": "1.0.0",
+  "description": "19. Progressive Web Applications (PWA) Challenge: Budget Tracker",
+  "main": "server.js",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemming97/Budget_Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lemming97/Budget_Tracker/issues"
+  },
+  "homepage": "https://github.com/Lemming97/Budget_Tracker#readme"
+}
