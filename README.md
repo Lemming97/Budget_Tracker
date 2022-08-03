@@ -14,12 +14,21 @@ The purpose is to update an existing budget tracker application to allow for off
 * [Screenshots](#screenshots)
 * [Link](#link)
 * [Usage](#usage)
-* [Built With](#built-with)
+
 
 
 ## Installation 
 
 
+1. Clone the repository from GitHub
+1. Install `node.js`
+1. Install `MongoDB`
+1. Run `npm install` to install dependencies. 
+1.  Dependencies include Express.js for routing, a MongoDB database, Morgan, and Compression. 
+1. Run `npm start` to start the web server and connect
+
+
+This package assumes there is a MongoDB server running on localhost:27017. If your server is running somewhere else, you can edit server.js to reflect that.
 
 ## User Story
 
@@ -43,6 +52,7 @@ THEN the deposits or expenses added while they were offline are added to their t
 
 ## Link 
 
+
 ## Usage 
 
-## Built With
+Gives users a fast and easy way to track their money is important, but allows them to access that information at any time is even more important. 
