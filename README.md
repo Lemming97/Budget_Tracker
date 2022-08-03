@@ -60,4 +60,4 @@ THEN the deposits or expenses added while they were offline are added to their t
 
 ## Usage 
 
-Gives users a fast and easy way to track their money is important, but allows them to access that information at any time is even more important. 
+Gives users a fast and easy way to track their money, but allows them to access that information at any time is even more important. 
