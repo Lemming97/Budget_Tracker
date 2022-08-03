@@ -16,9 +16,11 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+// the connect route 'mongodb://localhost/budget' is added to the variable MONGODB_URI
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true
 });
 
 // routes
